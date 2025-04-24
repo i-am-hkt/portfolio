@@ -1,0 +1,46 @@
+/* Custom styling for the header */
+.navbar {
+    border-bottom: 2px solid #003366;
+  }
+  
+  .navbar-nav .nav-link {
+    font-size: 1.1rem;
+  }
+  
+  .navbar-toggler {
+    border-color: #003366;
+  }
+  
+  .btn-light {
+    padding: 10px 20px;
+    font-weight: bold;
+  }
+/* Enable dropdown on hover */
+.nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; /* optional: removes spacing on top */
+  }
+  
+  .navbar .dropdown-toggle::after {
+    transition: transform 0.3s ease;
+  }
+  
+  .nav-item.dropdown:hover .dropdown-toggle::after {
+    transform: rotate(180deg); /* Optional: arrow animation */
+  }
+  .text-orange {
+    color: #ff7f00; /* Orange color */
+  }
+/* Custom white hamburger icon */
+.navbar-toggler {
+    border: none;
+  }
+  
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+  }
+  .card:hover {
+    transform: scale(1.05); /* Slight zoom effect */
+  }
+  
+      
